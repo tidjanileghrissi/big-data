@@ -1,4 +1,0 @@
-downloading https://old-releases.ubuntu.com/releases/22.04.3/ubuntu-22.04-beta-desktop-amd64.iso to /var/lib/vz/template/iso/Ubuntu-22-04-beta-desktop-amd64.iso
---2025-03-12 17:28:04--  https://old-releases.ubuntu.com/releases/22.04.3/ubuntu-22.04-beta-desktop-amd64.iso
-Resolving old-releases.ubuntu.com (old-releases.ubuntu.com)... failed: Temporary failure in name resolution.
-TASK ERROR: download failed: wget: unable to resolve host address 'old-releases.ubuntu.com'
