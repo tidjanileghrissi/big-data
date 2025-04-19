@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  container1:
+    image: tidjanileghrissi/tp3
+    container_name: container1
+    ports:
+      - "8081:80"
+    networks:
+      - my_network
+
+  container2:
+    image: tidjanileghrissi/tp3
+    container_name: container2
+    ports:
+      - "8082:80"
+    networks:
+      - my_network
+
+  container3:
+    image: tidjanileghrissi/tp3
+    container_name: container3
+    ports:
+      - "8083:80"
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    driver: bridge
