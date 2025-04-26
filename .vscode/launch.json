@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch WordCount",
+      "request": "launch",
+      "mainClass": "hadoop.mapreduce.tp1.WordCount",
+      "projectName": "wordcount",
+      "args": [
+        "src/main/resources/input/file.txt",
+        "src/main/resources/output"
+      ],
+      "env": {
+        "HADOOP_HOME": "C:\\hadoop"
+      },
+      "vmArgs": "-Dhadoop.home.dir=C:\\hadoop"
+    }
+  ]
+}
