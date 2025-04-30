@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Stream",
+            "request": "launch",
+            "mainClass": "spark.streaming.tp22.Stream",
+            "projectName": "stream"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Stream",
+            "request": "launch",
+            "mainClass": "spark.streaming.tp22.Stream",
+            "projectName": "STREAM"
+        }
+    ]
+}

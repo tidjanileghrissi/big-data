@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Run WordCountTask with args",
+        "request": "launch",
+        "mainClass": "spark.batch.tp21.WordCountTask",
+        "projectName": "wordcount",
+        "args": [
+          "src/main/resources/loremipsum.txt",
+          "src/main/resources/out"
+        ]
+      }
+    ]
+  }
+  
